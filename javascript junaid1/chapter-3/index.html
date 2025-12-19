@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript chapter-3</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1>.....................</h1>
+
+<h1><p id="message-container">the message will appear here </p></h1>
+  <h1> <p id="message-box"> the message will appear here </p></h1>
+
+<script>   
+ var BirthYear= "2010"
+var message= "My Birth Year is :" +  BirthYear;
+document.getElementById('message-container').textContent=message;
+
+
+var comment= "Data type of my declared variable is number"
+document.getElementById('message-box').textContent=comment;
+
+</script>
+
+<p id="order"> the message will appear here</p>
+
+<script>
+    var Name= "john ordered "
+    var product= "T-shirt"
+    var order="10"
+    var company=" on XYZ Company Store"
+    document.getElementById('order').textContent= Name + order + product + company;
+    
+</script>
+
+</body>
+</html>
