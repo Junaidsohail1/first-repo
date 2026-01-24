@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 21 - 25</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>hello world !</h1>
+
+<!--                           Q9                       -->
+<!-- 
+    <h2>String to Number Conversion</h2>
+
+  <p id="output"></p>
+
+  <script>
+    
+    var str = "472";
+    
+    var num = Number(str);
+
+    document.getElementById("output").innerHTML =
+    
+    "String value: " + str + "<br>" +
+    
+    "Type of string: " + typeof str + "<br><br>" +
+    
+    "Number value: " + num + "<br>" +
+    
+    "Type of number: " + typeof num;
+ 
+ </script> -->
+
+
+
+<!--                           Q10      -->
+
+
+  <!-- <h2>Convert Text to Capital Letters</h2>
+
+  <input type="text" id="userInput" placeholder="Enter text">
+  <button onclick="convertText()">Convert</button>
+
+
+  <p id="result"></p>
+
+  <script>
+    function convertText() {
+
+      var text = document.getElementById("userInput").value;
+
+
+      var capitalText = text.toUpperCase();
+
+
+      document.getElementById("result").innerHTML =
+        "Capital Letters: " + capitalText;
+    }
+  </script> -->
+
+
+  <!--                   Q11       -->
+
+
+  
+  <!-- <h2>Convert Text to Title Case</h2>
+
+  
+  <input type="text" id="userInput" placeholder="Enter text">
+  <button onclick="convertTitleCase()">Convert</button>
+
+  
+  <p id="result"></p>
+
+  <script>
+    function convertTitleCase() {
+     
+      var text = document.getElementById("userInput").value;
+
+      var titleCaseText = text
+        .toLowerCase()
+        .split(" ")
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+
+     
+      document.getElementById("result").innerHTML =
+        "Title Case: " + titleCaseText;
+    }
+  </script> -->
+
+
+
+  <!--                  Q12                    -->
+<!-- 
+
+  <h2>Convert Number and Remove Dot</h2>
+
+  <p id="output"></p>
+
+  <script>
+    
+    var num = 35.36;
+
+    var numString = num.toString();
+
+    
+    var result = numString.replace(".", "");
+
+    
+    document.getElementById("output").innerHTML =
+      
+    "Original number: " + num + "<br>" +
+    
+    "After converting to string: " + numString + "<br>" +
+    
+    "After removing dot: " + result;
+  </script> -->
+
+
+
+  <!--               Q13                     -->
+
+
+  <!-- <h2>Username Validation</h2>
+
+  <input type="text" id="username" placeholder="Enter username">
+  <button onclick="checkUsername()">Submit</button>
+
+  <p id="result"></p>
+
+  <script>
+    function checkUsername() {
+      let username = document.getElementById("username").value;
+
+      for (let i = 0; i < username.length; i++) {
+        let code = username.charCodeAt(i);
+
+       
+       
+        if (code === 64 || code === 46 || code === 44 || code === 33) {
+          alert("Please enter a valid username.\nSpecial symbols @ . , ! are not allowed.");
+          return;
+        }
+      }
+
+      document.getElementById("result").innerHTML =
+        "Username is valid: " + username;
+    }
+  </script> -->
+
+
+
+
+
+  
+</body>
+</html>

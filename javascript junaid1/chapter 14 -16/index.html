@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter 14 - 16</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>hello world !</h1>
+
+                         <!-- Q7 -->
+
+    <!-- <h2>Education Qualifications in Pakistan:</h2>
+
+<script>
+    
+    var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+    for (var i = 0; i < qualifications.length; i++) {
+        document.write((i + 1) + ") " + qualifications[i] + "<br>");
+    }
+</script> -->
+
+
+                            <!-- Q8 -->
+
+
+<!-- <h2>Student Scores and Percentages</h2>
+
+<script>
+    
+    var students = ["Ali", "Ahmed", "Khalid"];
+
+ var scores = [400, 350, 480]; 
+    
+    let totalMarks = 500;
+
+    
+    for (var i = 0; i < students.length; i++) {
+        var percentage = (scores[i] / totalMarks) * 100;
+        document.write("Score of " + students[i] + " is " + scores[i] + ". Percentage: " + percentage.toFixed(2) + "%<br>");
+    }
+</script> -->
+
+
+                          <!-- Q9 -->
+
+
+<!-- <h2>Color Array Operations</h2>
+
+<script>
+    
+    var colors = ["Red", "Green", "Blue", "Yellow"];
+    document.write("<b>Initial colors:</b> " + colors.join(", ") + "<br><br>");
+
+                                        // PART-1                
+
+    var colorToAddBeginning = prompt("Enter a color to add to the beginning:");
+    colors.unshift(colorToAddBeginning);
+    document.write("<b>After adding to beginning:</b> " + colors.join(", ") + "<br><br>");
+
+                                        // PART-2
+    
+    var colorToAddEnd = prompt("Enter a color to add to the end:");
+    colors.push(colorToAddEnd);
+    document.write("<b>After adding to end:</b> " + colors.join(", ") + "<br><br>");
+
+                                        //    PART-3    
+    colors.unshift("Purple", "Orange");
+    document.write("<b>After adding two more colors to beginning:</b> " + colors.join(", ") + "<br><br>");
+
+                                        //    Part-4
+    colors.shift();
+    document.write("<b>After deleting the first color:</b> " + colors.join(", ") + "<br><br>");
+
+                                        //  PART-5
+    colors.pop();
+    document.write("<b>After deleting the last color:</b> " + colors.join(", ") + "<br><br>");
+
+                                        // PART-6 
+
+    var indexToAdd = Number(prompt("Enter the index at which you want to add a color:"));
+    var  colorToAdd = prompt("Enter the color name to add at index " + indexToAdd + ":");
+    colors.splice(indexToAdd, 0, colorToAdd);
+    document.write("<b>After adding color at index " + indexToAdd + ":</b> " + colors.join(", ") + "<br><br>");
+
+                                        //PART-7
+    var  indexToDelete = Number(prompt("Enter the index from which you want to delete color(s):"));
+    var numberOfColorsToDelete = Number(prompt("How many colors do you want to delete?"));
+    colors.splice(indexToDelete, numberOfColorsToDelete);
+    document.write("<b>After deleting " + numberOfColorsToDelete + " color(s) from index " + indexToDelete + ":</b> " + colors.join(", ") + "<br><br>");
+</script>
+ -->
+
+                                      <!-- Q10 -->
+
+ <!-- <h2>Student Scores in Ascending Order</h2>
+
+<script>
+   
+    var scores = [320, 450, 120, 280, 390];
+    document.write("<b>Original Scores:</b> " + scores.join(", ") + "<br><br>");
+
+    
+    scores.sort(function(a, b) {
+        return a - b;
+    });
+
+    
+    document.write("<b>Sorted Scores (Ascending):</b> " + scores.join(", "));
+</script> -->
+
+                           
+                               <!-- Q11 -->
+
+
+<!-- 
+  <h2>Selected Cities</h2>
+
+<script>
+    
+    let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+    document.write("<b>All Cities:</b> " + cities.join(", ") + "<br><br>");
+
+    
+    let selectedCities = cities.slice(0, 3);    
+    document.write("<b>Selected Cities:</b> " + selectedCities.join(", "));
+</script>-->
+
+                    
+                              <!-- Q12 -->
+<!-- 
+ <h2>Array to String</h2>
+
+<script>
+    var arr = ["This ", " is ", " my ", " cat"];
+
+    
+    var result = arr.join(""); 
+
+    document.write("<b>Resulting String:</b> " + result);
+</script> -->
+      
+                      
+                       <!-- Q13 -->
+
+
+<!-- <h2>FIFO (First In First Out) Example</h2>
+
+<script>
+    // Create a new array
+    let fruitName = [];
+
+    // Store values one by one (push adds to the end)
+    fruitName.push("Apple");
+    fruitName.push("Banana");
+    fruitName.push("Cherry");
+    fruitName.push("Date");
+
+    document.write("<b>Initial Array:</b> " + fruitName.join(", ") + "<br><br>");
+
+    
+    document.write("<b>Accessing values in FIFO order:</b><br>");
+    while (fruitName.length > 0) {
+        let item = fruitName.shift(); 
+        document.write(item + "<br>");
+    }
+</script> -->
+
+
+                            <!-- Q14 -->
+
+    <!-- <h2>LIFO (Last In First Out) Example</h2>
+
+<script>
+  
+    let Fruit = [];
+
+    
+    Fruit.push("Apple");
+    Fruit.push("Banana");
+    Fruit.push("Cherry");
+    Fruit.push("Date");
+
+    document.write("<b>Initial Array:</b> " + Fruit.join(", ") + "<br><br>");
+
+    
+    document.write("<b>Accessing values in LIFO order:</b><br>");
+    while (Fruit.length > 0) {
+        let item = Fruit.pop(); 
+        document.write(item + "<br>");
+    }
+</script -->
+
+
+
+                          <!-- Q15 -->
+
+<!-- 
+    <h2>Select Your Phone Manufacturer</h2>
+
+<script>
+    
+    let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+    
+    document.write('<select>');
+
+    for (let i = 0; i < manufacturers.length; i++) {
+        document.write('<option value="' + manufacturers[i] + '">' + manufacturers[i] + '</option>');
+    }
+
+    document.write('</select>');
+</script>                       -->
+
+
+</body>
+</html>
